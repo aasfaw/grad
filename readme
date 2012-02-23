@@ -1,0 +1,1 @@
+This program runs a parser on the website "thegradcafe.com" to find search results for schools and fields of study specified in the header. Use cron to schedule it to run every x minutes, and you have a checker to rid yourself of the anxiety of waiting for grad school results
