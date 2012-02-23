@@ -10,6 +10,7 @@ subjects = [
                 "ECE"
 ]
 schools = [
+                # only four schools left!
                 "Caltech",
                 "Harvard",
                 "Michigan",
