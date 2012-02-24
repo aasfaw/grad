@@ -106,8 +106,8 @@ def enablenotifications():
 def notify(ar, arraw):
     from os import system
     system("espeak -s 155 -a 200 " + ar  + " &")
-    from easygui import msgbox
-    msgbox(msg=arraw, title="New GradCafe Post", ok_button='OK')# == 'OK':
+    #from easygui import msgbox
+    #msgbox(msg=arraw, title="New GradCafe Post", ok_button='OK')# == 'OK':
     #    disablenotifications()
 
 def notifywrapper(resultstonotify):
