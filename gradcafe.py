@@ -10,11 +10,11 @@ subjects = [
                 "ECE"
 ]
 schools = [
-                # only four schools left!
+                # only three schools left!
                 "Caltech",
+                "Cal*Inst*Tech",
                 "Harvard",
-                "Michigan",
-                "Stanford"
+                "Michigan"
 ]
 searchstring = "(" + "|".join(subjects) + ") (" + "|".join(schools) + ")"
 gradcafe = "http://thegradcafe.com/survey/index.php?" + uencode({'q': searchstring}) + "&t=m&pp=250"
